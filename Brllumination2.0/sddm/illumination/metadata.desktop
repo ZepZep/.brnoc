@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Illumination
+Description=A solid SDDM theme.
+Screenshot=screenshot.png
+License=CC-BY-SA
+Author=Petr Zelina
+Email=zelina.pe@gmail.com
+
+Type=sddm-theme
+Version=2.0
+Screenshot=screenshot.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=illumination
+Theme-API=2.0

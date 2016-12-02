@@ -1,0 +1,20 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+# The type as listed above
+Type=Application
+
+# The version of the desktop entry specification to which this file complies
+Version=1.0
+
+# The name of the application
+Name=Jedna obrayzovka
+
+# A comment which can/will be used as a tooltip
+Comment=Nastaví na jednu obrazovku
+
+
+# The executable of the application.
+Exec=/home/brnoc/.brnoc/oneScreen.sh
+
+# The name of the icon that will be used to display this entry
+Icon=/home/brnoc/.brnoc/oneScreen.svg

@@ -1,0 +1,8 @@
+
+Blinking eye
+
+triangle ?
+
+time, date
+
+battery ? (plasma only?)
