@@ -22,30 +22,18 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.kickoff
 
-[Containments][1][Applets][2][Configuration]
-favorites=\\0
-systemApplications=systemsettings.desktop,
-
-[Containments][1][Applets][2][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][1][Applets][2][Configuration][General]
-favorites=org.kde.konsole.desktop,org.kde.dolphin.desktop,systemsettings.desktop
+favorites=preferred://browser,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
 
 [Containments][1][Applets][2][Configuration][Shortcuts]
 global=Alt+F1
 
 [Containments][1][Applets][2][Shortcuts]
-global=Meta+Space
+global=Alt+F1
 
 [Containments][1][Applets][3]
 immutability=1
 plugin=org.kde.plasma.pager
-
-[Containments][1][Applets][3][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][1][Applets][4]
 immutability=1
@@ -55,59 +43,67 @@ plugin=org.kde.plasma.taskmanager
 immutability=1
 plugin=org.kde.plasma.systemtray
 
-[Containments][1][Applets][5][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][Applets][5][Configuration][Containments][11]
+[Containments][1][Applets][5][Configuration][Containments][13]
 formfactor=2
 location=4
 
-[Containments][1][Applets][5][Configuration][Containments][11][Applets][12]
+[Containments][1][Applets][5][Configuration][Containments][13][Applets][14]
 immutability=1
 plugin=org.kde.discovernotifier
 
-[Containments][1][Applets][5][Configuration][Containments][11][Applets][13]
+[Containments][1][Applets][5][Configuration][Containments][13][Applets][15]
 immutability=1
 plugin=org.kde.plasma.volume
 
-[Containments][1][Applets][5][Configuration][Containments][11][Applets][14]
+[Containments][1][Applets][5][Configuration][Containments][13][Applets][16]
+immutability=1
+plugin=org.kde.kdeconnect
+
+[Containments][1][Applets][5][Configuration][Containments][13][Applets][17]
 immutability=1
 plugin=org.kde.plasma.notifications
 
-[Containments][1][Applets][5][Configuration][Containments][11][Applets][15]
+[Containments][1][Applets][5][Configuration][Containments][13][Applets][18]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][1][Applets][5][Configuration][Containments][13][Applets][19]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
-[Containments][1][Applets][5][Configuration][Containments][11][Applets][16]
+[Containments][1][Applets][5][Configuration][Containments][13][Applets][20]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][1][Applets][5][Configuration][Containments][11][Applets][17]
+[Containments][1][Applets][5][Configuration][Containments][13][Applets][21]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][1][Applets][5][Configuration][Containments][13][Applets][22]
+immutability=1
+plugin=org.kde.ktp-contactlist
+
+[Containments][1][Applets][5][Configuration][Containments][13][Applets][23]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
-[Containments][1][Applets][5][Configuration][Containments][11][Applets][24]
+[Containments][1][Applets][5][Configuration][Containments][13][Applets][24]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][1][Applets][5][Configuration][General]
-extraItems=org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.battery
-knownItems=org.kde.plasma.printmanager,org.kde.discovernotifier,org.kde.plasma.battery,org.kde.ktp-contactlist,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard
+extraItems=org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.ktp-contactlist,org.kde.discovernotifier,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement
+knownItems=org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.ktp-contactlist,org.kde.discovernotifier,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement
 
 [Containments][1][Applets][6]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][1][ConfigDialog]
-DialogHeight=84
-DialogWidth=1366
-
 [Containments][1][General]
 AppletOrder=2;3;4;5;6
 
-[Containments][22]
-activityId=281b3379-2ef8-4e81-b18a-b105f537255e
+[Containments][10]
+activityId=20ce5288-66d7-4f8b-99b9-185872650007
 formfactor=0
 immutability=1
 lastScreen=0
@@ -115,38 +111,17 @@ location=0
 plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
-[Containments][22][Applets][29]
+[Containments][11]
+activityId=1f4b725d-0766-4672-a632-d9ba2ee21b41
+formfactor=0
 immutability=1
-plugin=org.kde.plasma.icon
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
 
-[Containments][22][Applets][29][Configuration][General]
-applicationName=Rozšířit obrazovku
-iconName=/home/brnoc/.brnoc/splitScreen.svg
-url=file:///home/brnoc/.brnoc/splitScreen.desktop
-
-[Containments][22][Applets][30]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][22][Applets][30][Configuration][General]
-applicationName=Duplikovat obrazovku
-iconName=/home/brnoc/.brnoc/mirrorScreen.svg
-url=file:///home/brnoc/.brnoc/mirrorScreen.desktop
-
-[Containments][22][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][22][General]
-ItemsGeometries=Applet-30:1152,16,176,160,0;Applet-29:1149,187,176,160,0;
-
-[Containments][22][Wallpaper][org.kde.image][General]
-Image=file:///home/brnoc/.brnoc/pozadi_1920x1080.png
-height=768
-width=1366
-
-[Containments][23]
-activityId=281b3379-2ef8-4e81-b18a-b105f537255e
+[Containments][12]
+activityId=9d6a5347-5d21-47c5-bfdb-1830c22e02a0
 formfactor=0
 immutability=1
 lastScreen=1
@@ -154,15 +129,82 @@ location=0
 plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
-[Containments][23][ConfigDialog]
+[Containments][12][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][23][Wallpaper][org.kde.image][General]
+[Containments][12][Wallpaper][org.kde.image][General]
 FillMode=2
 Image=file:///home/brnoc/.brnoc/pozadi_1920x1080.png
 height=768
 width=1024
+
+[Containments][7]
+activityId=ca9a954a-e522-4004-af4c-5515991f0adb
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][8]
+activityId=9d6a5347-5d21-47c5-bfdb-1830c22e02a0
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][8][Applets][25]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][8][Applets][25][Configuration][General]
+applicationName=Duplikovat obrazovku
+iconName=/home/brnoc/.brnoc/mirrorScreen.svg
+url=file:///home/brnoc/.brnoc/mirrorScreen.desktop
+
+[Containments][8][Applets][26]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][8][Applets][26][Configuration][General]
+applicationName=Rozšířit obrazovku
+iconName=/home/brnoc/.brnoc/splitScreen.svg
+url=file:///home/brnoc/.brnoc/splitScreen.desktop
+
+[Containments][8][Applets][27]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][8][Applets][27][Configuration][General]
+applicationName=Jedna obrayzovka
+iconName=/home/brnoc/.brnoc/oneScreen.svg
+url=file:///home/brnoc/.brnoc/oneScreen.desktop
+
+[Containments][8][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][8][General]
+ItemsGeometries=Applet-25:1184,16,160,176,0;Applet-26:1184,208,160,176,0;Applet-27:1184,399,160,176,0;
+
+[Containments][8][Wallpaper][org.kde.image][General]
+FillMode=2
+Image=file:///home/brnoc/.brnoc/pozadi_1920x1080.png
+height=768
+width=1366
+
+[Containments][9]
+activityId=854cf07c-b5fe-48a3-9135-f3b56334d6f1
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
 
 [General]
 immutability=2
